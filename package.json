@@ -1,0 +1,19 @@
+{
+  "name": "model_test_and_deploy",
+  "version": "1.0.0",
+  "description": "Machine Learning Model Tester and Deployer",
+  "main": "backend/server.js",
+  "scripts": {
+    "backend-install": "npm install --prefix backend",
+    "frontend-install": "npm install --prefix frontend",
+    "backend": "nodemon backend/server.js",
+    "frontend": "npm start --prefix frontend",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "keywords": [],
+  "author": {
+    "name": "Win Roedily",
+    "email": "winnerroedily@via.com.tw"
+  },
+  "license": "ISC"
+}

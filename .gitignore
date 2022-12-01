@@ -1,0 +1,5 @@
+# Project exclude paths
+/backend/node_modules/
+/backend/python/tester
+/backend/tmp/*
+/backend/package-lock.json

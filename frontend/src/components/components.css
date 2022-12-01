@@ -1,0 +1,107 @@
+.headContainer {
+  width: 100%;
+  height: 5vh;
+  margin: 1vh 0;
+  padding-bottom: 3px;
+  display: flex;
+  flex-direction: row;
+}
+
+.shapesContainer {
+  margin-top: 1vh;
+  margin-right: 1vw;
+}
+
+.modelInput {
+  width: 100%;
+  margin-top: 1vh;
+  margin-left: 25vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.modelIcon {
+  margin-left: 2vw;
+}
+
+.labelContainer {
+  width: 25vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  padding: 3px;
+  box-sizing: border-box;
+  border: 2px groove black;
+}
+
+.labelList {
+  height: 85vh;
+  width: 23vw;
+  margin-top: .2vh;
+}
+
+.viewerContainer {
+  width: 73vw;
+  height: 91.5vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  padding: 3px;
+  box-sizing: border-box;
+  border: 2px groove black;
+}
+
+.imageContainer {
+  height: 84.5vh;
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.imageButton {
+  height: 50vh;
+  width: 50vw;
+  position: absolute;
+  top: 5vh;
+  left: 15%;
+}
+
+.controlContainer {
+  width: 68vw;
+  height: 3vh;
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  margin-bottom: 1vh;
+  padding: 1vw;
+}
+
+.buttonGroupContainer {
+  margin-left: auto;
+  margin-right: .5vw;
+}
+
+.bboxContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bbox {
+  fill-opacity: 0;
+  stroke-width: 2;
+  stroke: rgb(0 255 0);
+}
+
+@media only screen and (min-width: 320px) {
+  .image { width: 100%; height: auto; }
+}
+
+@media only screen and (min-width: 1024px) {
+  .image { width: auto; height: 100%; }
+}

@@ -33,6 +33,7 @@
   padding: 3px;
   box-sizing: border-box;
   border: 2px groove black;
+  background-color: whitesmoke;
 }
 
 .labelList {
@@ -50,6 +51,7 @@
   padding: 3px;
   box-sizing: border-box;
   border: 2px groove black;
+  background-color: whitesmoke;
 }
 
 .imageContainer {

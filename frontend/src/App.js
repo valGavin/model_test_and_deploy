@@ -8,7 +8,7 @@ function App() {
   const formData = new FormData();
 
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
+    <div style={{ display: "flex", flexDirection: "column", backgroundColor: "aliceblue" }}>
       <div className="headContainer">
         <Model formData={formData} />
         <Shapes />
